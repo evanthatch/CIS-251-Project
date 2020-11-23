@@ -1,0 +1,192 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #efefef;
+  font-family: 'Century Gothic', san-serif;
+
+}
+
+.sleepy-img {
+  width: 40%;
+  float: right;
+}
+
+.sleepy-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.about {
+  margin-left: 15px;
+}
+
+.profile_info {
+  width: 60%;
+  height: 100vh;
+  float: left;
+  padding: 0 30px;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+.profile_info::-webkit-scrollbar{
+  width: 0px;
+}
+
+.profile_info h1{
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.profile_info h2{
+  margin-top: 50px;
+  margin-bottom: 15px;
+}
+
+
+.bearcat img{
+  height: 5%;
+  margin: 5px;
+}
+
+.hotel img{
+  height: 5%;
+  margin: 5px;
+}
+
+.cfa img{
+  height: 5%;
+  margin: 5px;
+}
+
+.bearcatexp small {
+  padding-top: 10px;
+  display: block;
+}
+
+.hotelexp small {
+  padding-top: 10px;
+  display: block;
+}
+
+.cfaexp small {
+  padding-top: 10px;
+  display: block;
+}
+
+.bearcatexp {
+  display: inline-block;
+  width: 28%;
+  padding: 30px 10px;
+  margin: 2%;
+  text-align: center;
+  box-shadow: 0 0 15px 1px rgba(37, 73, 214, 0.18);
+  background-color: white;
+}
+
+
+.hotelexp {
+  display: inline-block;
+  width: 28%;
+  padding: 30px 10px;
+  margin: 2%;
+  text-align: center;
+  box-shadow: 0 0 15px 1px rgba(37, 73, 214, 0.18);
+  background-color: white;
+}
+
+.cfaexp {
+  display: inline-block;
+  width: 28%;
+  padding: 30px 10px;
+  margin: 2%;
+  text-align: center;
+  box-shadow: 0 0 15px 1px rgba(37, 73, 214, 0.18);
+  background-color: white;
+}
+
+.baCIS {
+  display: inline-block;
+  width: 28%;
+  padding: 30px 10px;
+  margin: 2%;
+  text-align: center;
+  box-shadow: 0 0 15px 1px rgba(37, 73, 214, 0.18);
+  background-color: white;
+}
+
+.aabis {
+  display: inline-block;
+  width: 28%;
+  padding: 30px 10px;
+  margin: 2%;
+  text-align: center;
+  box-shadow: 0 0 15px 1px rgba(37, 73, 214, 0.18);
+  background-color: white;
+}
+
+.hsdiploma {
+  display: inline-block;
+  width: 28%;
+  padding: 30px 10px;
+  margin: 2%;
+  text-align: center;
+  box-shadow: 0 0 15px 1px rgba(37, 73, 214, 0.18);
+  background-color: white;
+}
+
+.languages {
+  display: inline-block;
+  width: 28%;
+  padding: 30px 10px;
+  margin: 2%;
+  text-align: center;
+  box-shadow: 0 0 15px 1px rgba(37, 73, 214, 0.18);
+  background-color: white;
+}
+
+.personality {
+  display: inline-block;
+  width: 28%;
+  padding: 30px 10px;
+  margin: 2%;
+  text-align: center;
+  box-shadow: 0 0 15px 1px rgba(37, 73, 214, 0.18);
+  background-color: white;
+}
+
+.work {
+  display: inline-block;
+  width: 28%;
+  padding: 30px 10px;
+  margin: 2%;
+  text-align: center;
+  box-shadow: 0 0 15px 1px rgba(37, 73, 214, 0.18);
+  background-color: white;
+}
+
+@media only screen and (max-width: 900px) {
+  .profile_info {
+    width: 100%;
+    overflow: inherit;
+  }
+
+  .sleepy-img {
+    width: 100%;
+  }
+
+  .experience {
+    width: 95%;
+    margin-bottom: 10%
+  }
+}
+
+.designed{
+  text-align: center;
+  margin-bottom: 20px;
+}
